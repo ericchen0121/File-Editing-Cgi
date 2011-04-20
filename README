@@ -1,9 +1,12 @@
-Notes: 
-0. If you place all files in this repository into your "XAMPP/htdocs/File-Editing-Cgi" folder, then instructions will work like this
+CGI FILE EDITING SERVICE
+------------------------
+Instructions. 
 
-1. Run index.html from a browser. Run it over the web, not as a local file. (in your browser, go to http://127.0.0.1/File-Editing-Cgi/index.html
+0. If you place all the files in this repository into your "XAMPP/htdocs/File-Editing-Cgi" folder, then these are your instructions
 
-2. This should bring up an empty screen with place to enter a filename. Enter a filename of an existing editable file (editfile.txt has already been created and should work) in the "data" folder. 
+1. Run index.html from a browser. Run it over the web, not as a local file. (in your browser, go to http://127.0.0.1/File-Editing-Cgi/index.html)
+
+2. This should bring up an empty screen with a field to enter a filename. Enter a filename of an existing editable file (editfile.txt has already been created and should work) in the "data" folder. 
 
 3. The file's text contents should open. It will ask for a password. The current password is '1234' (its sha hash is hardcoded into save.cgi). 
 
